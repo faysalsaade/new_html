@@ -41,10 +41,12 @@ h1 {
 .s1fa {
     background-color: blue;
     color: white;
-    width: 120px;
+    width: 200px;
     height: 80px;
-    text-align: justify;
-
+    font-size: 2rem;
+    display: block;
+    cursor: pointer;
+    text-align: center;
     border-radius: 55px;
-    padding-left: 70px;
+
 }
