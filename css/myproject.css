@@ -1,0 +1,50 @@
+body {
+    background-color: #eee;
+
+}
+
+h2 {
+    color: blue;
+    padding-top: 40px;
+    padding-left: 75px;
+
+}
+
+h1 {
+    padding-top: 350px;
+    padding-left: 200px;
+    width: 400px;
+
+}
+
+.king {
+    color: black;
+    width: 150px;
+    padding-bottom: 100px;
+}
+
+.faysal {
+    padding-left: 1300px;
+    width: 500px;
+    height: 500px;
+    display: inline;
+}
+
+.king {
+    color: black;
+    width: 350px;
+    padding-bottom: 100px;
+    display: inline;
+
+}
+
+.s1fa {
+    background-color: blue;
+    color: white;
+    width: 120px;
+    height: 80px;
+    text-align: justify;
+
+    border-radius: 55px;
+    padding-left: 70px;
+}
