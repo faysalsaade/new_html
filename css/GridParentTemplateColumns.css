@@ -8,7 +8,7 @@
     height: 500px;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(2, 100px) repeat(2, 1fr);
 }
 
 .parent diV {
