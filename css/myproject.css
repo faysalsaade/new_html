@@ -27,6 +27,9 @@ img {
 p:hover {
   transition-duration: 1s;
   transition-delay: 0.5s;
-  border: 20px double red;
-  outline: 10px dashed blue;
+  border: 20px double blue;
+  outline: 10px dashed red;
+  margin-left: 80px;
+  width: 800px;
+  height: 150px;
 }
