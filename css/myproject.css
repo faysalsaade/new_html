@@ -20,3 +20,13 @@ h1 {
 img {
   width: 50%;
 }
+.faysal p {
+  color: white;
+  background-color: black;
+}
+p:hover {
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  border: 20px double red;
+  outline: 10px dashed blue;
+}
