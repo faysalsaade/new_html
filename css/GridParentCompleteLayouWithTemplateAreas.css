@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  display: inline-block;
+}
+.page {
+  height: 650px;
+  display: grid;
+  background-color: #eee;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas: "faysal faysal nav nav nav nav nav nav nav nav" "cont cont cont cont  cont cont cont cont  side side" "foot foot foot foot foot foot foot foot foot foot";
+}
+h2 {
+  grid-area: faysal;
+  background-color: red;
+  color: white;
+}
+nav {
+  grid-area: nav;
+  background-color: blue;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+section {
+  grid-area: cont;
+  background-color: yellow;
+  color: white;
+}
+aside {
+  grid-area: side;
+  background-color: green;
+  color: white;
+}
+footer {
+  grid-area: foot;
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 100px) repeat(2, 1fr);
+}
+
+.parent diV {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
